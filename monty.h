@@ -111,6 +111,6 @@ void get_opcode(char *op, stack_t **stack, unsigned int line_number);
 void close(int stat, void *arg);
 void free_lineptr(int stat, void *arg);
 void free_stack_t(int stat, void *arg);
+stack_t *add_node(stack_t **stack, const int n);
 
 #endif
-
