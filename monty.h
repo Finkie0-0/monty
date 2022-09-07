@@ -62,50 +62,35 @@ extern var_t var;
 /* Task 0 */
 void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
-
 /* Task 1 */
 void _pint(stack_t **stack, unsigned int line_number);
-
 /* Task 2 */
 void _pop(stack_t **stack, unsigned int line_number);
-
 /* Task 3 */
 void _swap(stack_t **stack, unsigned int line_number);
-
 /* Task 4 */
 void _add(stack_t **stack, unsigned int line_number);
-
 /* Task 5 */
 void _nop(stack_t **stack, unsigned int line_number);
-
 /* Task 6 */
 void _sub(stack_t **stack, unsigned int line_number);
-
 /* Task 7 */
 void _div(stack_t **stack, unsigned int line_number);
-
 /* Task 8 */
 void _mul(stack_t **stack, unsigned int line_number);
-
 /* Task 9 */
 void _mod(stack_t **stack, unsigned int line_number);
-
 /* Task 11 */
 void _pchar(stack_t **stack, unsigned int line_number);
-
 /* Task 12 */
 void _pstr(stack_t **stack, unsigned int line_number);
-
 /* Task 13 */
 void _rotl(stack_t **stack, unsigned int line_number);
-
 /* Task 14 */
 void _rotr(stack_t **stack, unsigned int line_number);
-
 /* Task 15 */
 void _stack(stack_t **stack, unsigned int line_number);
 void _queue(stack_t **stack, unsigned int line_number);
-
 /* Extras */
 void get_opcode(char *op, stack_t **stack, unsigned int line_number);
 void close(int stat, void *arg);
