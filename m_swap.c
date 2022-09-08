@@ -2,11 +2,11 @@
 #include "lists.h"
 
 /**
- * swap_handler - handles the swap instruction
+ * m_swap - handles the swap instruction
  * @stack: double pointer to the stack to push to
  * @line_number: number of the line in the file
  */
-void swap_handler(stack_t **stack, unsigned int line_number)
+void m_swap(stack_t **stack, unsigned int line_number)
 {
 	stack_t *temp = *stack, *node = NULL;
 	int num;
