@@ -5,7 +5,7 @@
  * @stack: double pointer to the stack to push to
  * @line_number: number of the line in the file
  */
-void push_handler(stack_t **stack, unsigned int line_number)
+void m_push(stack_t **stack, unsigned int line_number)
 {
 	stack_t *new;
 	int num = 0, i;
