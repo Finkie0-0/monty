@@ -1,7 +1,8 @@
 #include "monty.h"
+#include "lists.h"
 
 /**
- * push_handler - handles the push instruction
+ * m_push - handles the push instruction
  * @stack: double pointer to the stack to push to
  * @line_number: number of the line in the file
  */

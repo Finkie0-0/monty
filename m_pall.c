@@ -1,7 +1,8 @@
 #include "monty.h"
+#include "lists.h"
 
 /**
- * pall_handler - handles the pall instruction
+ * m_pall - handles the pall instruction
  * @stack: double pointer to the stack to push to
  * @line_number: number of the line in the file
  */
